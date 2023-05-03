@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+    <div class="container">
+      <form id="survey-form">
+        <!-- BASIC INFORMATION -->
+        <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+        <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Enter your Email" required></label>
+        <label id="number-label" for="number">Age (optional)<input id="number" type="number" min="13" max="120" placeholder="Age"></label>
+
+        <!-- ROLE -->
+        <p>Which option best describe your current role?</p>
+        <select id="dropdown">
+          <option>Select current role</option>
+          <option>Student</option>
+          <option>Full Time Job</option>
+          <option>Full Time Learner</option>
+          <option>Prefer Not To Say</option>
+          <option>Other</option>
+        </select>
+
+        <!-- REFER FRIEND -->
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label><input type="radio" name="refer-radio" value="refer" class="inline" checked>Definitely</label>
+        <label><input type="radio" name="refer-radio" value="refer" class="inline">Maybe</label>
+        <label><input type="radio" name="refer-radio" value="refer" class="inline">Not Sure</label>
+        <p>What is your favourite feature of freeCodeCamp?</p>
+        <select id="dropdown2">
+          <option>Select an option</option>
+          <option>Challenges</option>
+          <option>Projects</option>
+          <option>Community</option>
+          <option>Open Source</option>
+        </select>
+
+        <!-- FEEDBACK -->
+        <p>What would you like to see improved? <span>(Check all that apply)</span></p>
+        <label><input type="checkbox" class="inline" value="check-box">Front-end Projects</label>
+        <label><input type="checkbox" class="inline" value="check-box">Back-end Projects</label>
+        <label><input type="checkbox" class="inline" value="check-box">Data Visualization</label>
+        <label><input type="checkbox" class="inline" value="check-box"> Challenges</label>
+        <label><input type="checkbox" class="inline" value="check-box">Open Source Community</label>
+        <label><input type="checkbox" class="inline" value="check-box">Gitter help rooms</label>
+        <label><input type="checkbox" class="inline" value="check-box">Video</label>
+        <label><input type="checkbox" class="inline" value="check-box">City Meetups</label>
+        <label><input type="checkbox" class="inline" value="check-box">Wiki</label>
+        <label><input type="checkbox" class="inline" value="check-box">Forum</label>
+        <label><input type="checkbox" class="inline" value="check-box">Additional Courses</label>
+
+        <!-- COMMENT -->
+        <p>Any comments or suggestions?</p>
+        <textarea placeholder="Enter your comment here..."></textarea>
+
+        <!-- SUBMIT -->
+        <label class="submit-label"><input id="submit" type="submit" value="Submit"></label>
+      </form>
+    </div>
+  </body>
+</html>

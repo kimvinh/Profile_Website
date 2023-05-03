@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1, p {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 30px;
+  font-size: 1.8em;
+}
+
+p {
+  padding-bottom: 30px;
+}
+
+div {
+  background: rgba(27, 27, 50, 0.8);
+  opacity: 0.95;
+  width: 70%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 5px;
+  font-size: 1.15em;
+}
+
+div p {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea,
+select {
+  font-family: 'Poppins', san-serif;
+  padding-left: 10px;
+  margin: 10px 0;
+  width: 100%;
+  min-height: 2.5em;
+  border: white solid;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+span {
+  font-size: 13px;
+}
+
+textarea {
+  height: 100px;
+  border-radius: 2px;
+}
+
+input[type="submit"] {
+  color: inherit;
+  background-color: #37af65;
+  border: none;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: green;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.submit-label {
+  padding-top: 20px;
+}
